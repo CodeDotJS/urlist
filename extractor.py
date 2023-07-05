@@ -115,8 +115,5 @@ def main():
     with open(output_file_path, 'w') as output_file:
         json.dump(scraped_data, output_file, indent=4)
 
-    print(f"Scraped data has been saved to '{output_file_path}'.")
-
-
 if __name__ == "__main__":
     main()
